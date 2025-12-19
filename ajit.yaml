@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod 
+metadata: 
+  name: ajit-pod 
+spec: 
+  containers:
+  - name: ajit-container
+    image: nginx:latest
+    ports: 
+    - containerPort: 80 
